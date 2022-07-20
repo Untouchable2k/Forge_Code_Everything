@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Space',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  background-color: whitesmoke;
+  margin: 0;
+}
+.makeStyles-title-41{
+  color:rgb(0, 0, 0);
+}
+body {
+  display: grid;
+  min-height: 100vh;
+  /**background: linear-gradient(
+    135deg,
+    #faa78d,
+    #f77851,
+    #747372  
+  );**/
+}
+#tabs--191--tab--1{
+
+
+  width: 110px;
+  height: 37px;
+  background-color: rgb(209, 13, 160);
+}
+
+.theTabPanel2{
+
+
+  width: 110px;
+  height: 37px;
+  background-color: rgb(209, 13, 160);
+}
+.theTabPanel{
+
+
+  width: 110px;
+  height: 37px;
+  background-color: rgb(209, 13, 160);
+}
+button.MuiTab-textColorInherit{
+
+  color:rgb(0, 0, 0);
+  font-weight: bold;
+  background-color: rgb(42, 184, 240);
+}
+button.aria-controls{
+
+
+  width: 110px;
+  height: 37px;
+  background-color: rgb(209, 13, 160);
+}
+progress {
+  /* RESETS */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+
+  width: 300px;
+  height: 15px;
+  border-radius: 20px;
+  background-color: #777;
+  color: rgb(20, 240, 221);
+}
+
+/* WEBKIT BROWSERS - CHROME, OPERA AND SAFARI */
+progress::-webkit-progress-bar {
+  background-color: #777;
+  border-radius: 20px;
+}
+
+progress::-webkit-progress-value { background-image:
+     -webkit-linear-gradient(45deg, transparent 40%, rgba(0, 0, 0, .1) 40%, rgba(0, 0, 0, .1) 70%, transparent 70%),
+     -webkit-linear-gradient(top, rgba(255, 255, 255, .25), rgba(0, 0, 0, .25)),
+     -webkit-linear-gradient(left, #1abc9c, #3498db);
+
+  border-radius: 20px;
+}
+
+/* MOZILLA FIREFOX */
+progress::-moz-progress-bar {
+            background-image:
+     -moz-linear-gradient(45deg, transparent 33%, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.1) 70%, transparent 70%),
+     -moz-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.25)),
+     -moz-linear-gradient(left, #1abc9c, #3498db);
+ 
+  border-radius: 20px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button.MuiButton-containedPrimary {
+  background-color: #333;
+}
+button.MuiButton-containedPrimary:hover {
+  background-color: #F1592A;
+}
+
+h1.makeStyles-title-2 {
+  color:#333;
+}
+h1.makeStyles-header-11 {
+  color:#333;
+}
+h1.makeStyles-header-5 {
+  color:#333;
+}
+span.MuiTypography-h6{
+  color: #333;
+}
+button.Mui-selected{
+  background-color: #F1592A;
+  color: white;
+  border-radius: 5px;
+}
+
+span.PrivateTabIndicator-colorSecondary-16 {
+  background-color: #333;
+}
+button{
+ background-color: #F1592A;
+ color: white; 
+ padding: 7px;
+ border: none;
+ border-radius: 5px;
+ margin: 5px;
+}
+button.MuiButton-root{
+  border-radius: 150px;
+}
+button.MuiButton-root{
+  border-radius: 150px;
+}
+#mui-p-23600-T-1{
+
+  color: rgb(0, 0, 0);
+  font-size:20px;
+  font-weight: bold;
+}
+button.MuiButtonBase-root{
+
+  font-size:17px;
+}
+a{
+  color: #333;
+}yarn
+p{color: #333;}
+span.MuiTypography-root{
+  color: #333;
+}

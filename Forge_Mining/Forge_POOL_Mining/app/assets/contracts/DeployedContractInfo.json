@@ -1,0 +1,20 @@
+
+{
+  "networks": {
+      "mainnet": {
+              "contracts": {
+                "_bnbitcointoken": {"name":"BNbitcoinToken", "blockchain_address":"0xF44fB43066F7ECC91058E3A614Fb8A15A2735276"}
+              }
+            },
+      "staging": {
+              "contracts": {
+                "_0xbitcointoken": {"name":"0xBitcoinToken", "blockchain_address":"0xF44fB43066F7ECC91058E3A614Fb8A15A2735276"}
+              }
+            },
+      "testnet": {
+              "contracts": {
+                "_0xbitcointoken": {"name":"0xBitcoinToken", "blockchain_address":"0x9d2cc383e677292ed87f63586086cff62a009010"}
+              }
+            }
+    }
+}

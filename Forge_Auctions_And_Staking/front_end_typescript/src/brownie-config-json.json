@@ -1,0 +1,92 @@
+{
+    "reports": {
+        "exclude_contracts": [
+            "SafeMath",
+            "MockV3Aggregator",
+            "DappToken",
+            "MockERC20"
+        ]
+    },
+    "dependencies": [
+        "smartcontractkit/chainlink-brownie-contracts@0.2.2",
+        "OpenZeppelin/openzeppelin-contracts@4.3.2"
+    ],
+    "compiler": {
+        "solc": {
+            "remappings": [
+                "@chainlink=smartcontractkit/chainlink-brownie-contracts@0.2.2",
+                "@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.3.2"
+            ]
+        }
+    },
+    "autofetch_sources": true,
+    "dotenv": ".env",
+    "networks": {
+        "development": {
+            "verify": false
+        },
+        "polygon": {
+            "oldLP": "0x72909E1cB954A851E34c56cC0e65632Bbaa7C123",
+            "GAS": 43222321321,
+            "NEWsynethix_LP3": "0x8D98Fe010fcF92D36043B1D56d820Dbfcc327CaE",
+            "NEWsynethix_LP": "0x61bAF3Ae1E4Bd32e851F38A2D063767790783e3b",
+            "NEWsynethix_LP2": "0x75FDa0bE41f97cd9Ab0f521ce28857B70286BE88",
+            "sushi": "0xa27833d0acfc8fe565adb9bb656fa6c78ef1f6d2",
+            "synethix_LP": "0x7d28fa576a4e08922B01e897CE4f5517AD351578",
+            "xbtc": "0x71b821aa52a49f32eed535fca6eb5aa130085978",
+            "auction": "0xBb1fA87A4738B22F7d2D5EC34bA349375B4D86F0",
+            "LP_token": "0x562322f8e7131d0bb9f487ae566935d3be96406b",
+            "pow_token": "0xF44fB43066F7ECC91058E3A614Fb8A15A2735276",
+            "weth_token": "0xd0a1e359811322d97991e03f863a0c30c2cf029c",
+            "fau_token": "0xFab46E002BbF0b4509813474841E0716E6730136",
+            "eth_usd_price_feed": "0x9326BFA02ADD2366b30bacB125260Af641031331",
+            "dai_usd_price_feed": "0x777A68032a88E5A84678A77Af2CD65A7b3c0775a",
+            "verify": true
+
+
+
+
+        },
+        "mumbai": {
+            "oldLP": "0x72909E1cB954A851E34c56cC0e65632Bbaa7C123",
+            "GAS": 43222321321,
+            "NEWsynethix_LP3": "0x8D98Fe010fcF92D36043B1D56d820Dbfcc327CaE",
+            "NEWsynethix_LP": "0x958C06E2e2Ed4442b2F6A6B78ed6B4f64d8bbd5C",
+            "NEWsynethix_LP2": "0x958C06E2e2Ed4442b2F6A6B78ed6B4f64d8bbd5C",
+            "sushi": "0xa27833d0acfc8fe565adb9bb656fa6c78ef1f6d2",
+            "synethix_LP": "0x2bDd577B962586aB1105C17a9bF32Ab7a3d62Cdb",
+            "xbtc": "0x6d098aD51D2E49e2F51dCba9c26612EAc0368030",
+            "auction": "0x23f3d5088cFB9b9697f94d08e68Edb3c82773068",
+            "LP_token": "0x870307820C358e4F042E5Bf59229bEB676eB9E83",
+            "pow_token": "0x0B72b2Ff0e87ff84EFf98451163B78408486Ee5c",
+            "weth_token": "0xd0a1e359811322d97991e03f863a0c30c2cf029c",
+            "fau_token": "0xFab46E002BbF0b4509813474841E0716E6730136",
+            "eth_usd_price_feed": "0x9326BFA02ADD2366b30bacB125260Af641031331",
+            "dai_usd_price_feed": "0x777A68032a88E5A84678A77Af2CD65A7b3c0775a",
+            "verify": true
+        },
+        "rinkeby": {
+            "link_token": "0x01BE23585060835E02B77ef475b0Cc51aA1e0709",
+            "eth_usd_price_feed": "0x8A753747A1Fa494EC906cE90E9f37563A8AF630e",
+            "dai_usd_price_feed": "0x2bA49Aaa16E6afD2a993473cfB70Fa8559B523cF",
+            "verify": true
+        },
+        "kovan": {
+            "sushi": "0xb9e07554e787dbc634c7103b06865d884eac19bc",
+            "synethix_LP": "0x958C06E2e2Ed4442b2F6A6B78ed6B4f64d8bbd5C",
+            "xbtc": "0x7D9e45a9f0E786468cF2545F998416Ab16bF0Ae7",
+            "auction": "0xdAc827e598d2B57616D281858A7943d6c29B8556",
+            "LP_token": "0xe8C66B9d488324a47759b138e163188146e9ACbE",
+            "pow_token": "0x67cc6ffE745BED09A4C254Ba03fFF6A9f050cA5F",
+            "weth_token": "0xd0a1e359811322d97991e03f863a0c30c2cf029c",
+            "fau_token": "0xFab46E002BbF0b4509813474841E0716E6730136",
+            "eth_usd_price_feed": "0x9326BFA02ADD2366b30bacB125260Af641031331",
+            "dai_usd_price_feed": "0x777A68032a88E5A84678A77Af2CD65A7b3c0775a",
+            "verify": true
+        }
+    },
+    "wallets": {
+        "from_key": "${PRIVATE_KEY}",
+        "from_mnemonic": "${MNEMONIC}"
+    }
+}

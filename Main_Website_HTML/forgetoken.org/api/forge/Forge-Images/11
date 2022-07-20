@@ -1,0 +1,19 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Proof of Work",
+      "value": "50%"
+    },
+    {
+      "trait_type": "Proof of Stake",
+      "value": "25%"
+    },
+    {
+      "trait_type": "Proof of Auctions",
+      "value": "25%"
+    }
+  ],
+  "description": "The world's strongest ERC20 ever made, backed by Proof of Work, Proof of Auctions, and Proof of Staking this all in one coin has everything! Even NFT mining!!!",
+  "image": "https://forgetoken.org/api/forge/NFT/11.png",
+  "name": "Forge NFT #11"
+}

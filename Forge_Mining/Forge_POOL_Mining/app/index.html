@@ -1,0 +1,243 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+    crossorigin="anonymous">
+
+  <%= require('html-loader!./assets/html/head.html') %>
+
+
+
+</head>
+
+<body>
+
+  <%= require('html-loader!./assets/html/navbar.html') %>
+
+	
+    <div class="page-container slate-theme " id="home">
+	<pre> 0xToken x Mineable x Burn x Shuffle (0xT) </pre>
+    <pre>Pool fee  is 10%!!!!!!!!!!!!!!! 10(costs a more to mint this token)%!@!!! WOOT! We LIVE! Will lower if possible!    <p>0xToken x Mineable x Burn x Shuffle (0xT) payouts are every 24 hours with balances greater than 15 0xToken x Mineable x Burn x Shuffle (0xT)!!!!</p>
+    <pre>connect to the pool with your miner set to http://0xtoken.org:8080</pre>
+
+
+      <section class="hero circuit-overlay">
+        <div class="hero-body">
+            <div class="container has-text-centered" id='jumbotron'>
+            <h1 class="title font-primary-title color-primary">
+              0xToken x Mineable x Burn x Shuffle (0xT) Mining Pool
+            </h1>
+             <a href="/account" target="_blank">
+               <div class='button-bubble button-white button'>View Account Shares</div>
+             </a>
+
+            <a v-bind:href='pool.poolData.etherscanMintingURL'>
+              <p>Minting: {{pool.poolData.mintingAddress}}</p>
+            </a>
+
+            <a v-bind:href='pool.poolData.etherscanPaymentURL'>
+              <p>Payments: {{pool.poolData.paymentAddress}}</p>
+            </a>
+            <p>
+            </p>
+            <p>
+              <a href="http://github.com/snissn/tokenpool/" target=_blank>
+                <div class='button-bubble button-white button'> This is a fully open source pool, read the source, build your own. </div>
+              </a>
+            </p>
+            <p></p>
+
+            <h2 class="subtitle">
+              Mine 0xToken x Mineable x Burn x Shuffle (0xT) with AMD + NVIDIA + CPU Pool Mining
+            </h2>
+
+
+
+            <div class="whitespace-sm"></div>
+
+            <div class="columns">
+              <div class="column   is-half-desktop " style=" margin: 0 auto;">
+
+                <canvas id="hashgraph"></canvas>
+
+              </div>
+            </div>
+
+            <div class="whitespace-sm"></div>
+            </pre>
+<pre style="text-align:left;">Pool difficulty is 0 to reduce server load(contact me if this is you in discord with any questions)
+pool select http://0xtoken.org:8080 If you need it higher or lower Contact me on discord (RedManStan) and I will get u custom difficulty!
+</pre>
+             <a href="https://docs.google.com/spreadsheets/d/1lpQufwMHeozyz2X5Xq9MhjLr_hVTkQfzpzXcdFQDRGg/edit#gid=0" target="_blank">
+               <div class='button-bubble button-white button'>Cat of Profits Mining Profitability Calculator</div>
+             </a>
+             <br>
+            <div class="whitespace-sm"></div>
+
+
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+      <ul class="nav nav-tabs" id="tabPanel" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" data-toggle="tab" href="#guide">Start Mining</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#solutiontxlist">Recent Solutions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#transfertxlist">Recent Transfers</a>
+        </li>
+      </ul>
+	  
+              <hr>
+              <p>Connect to this pool with
+                <pre>pool select http://0xtoken.org:8080</pre>
+              </p>
+              <hr>
+
+      </div>
+
+      <div id="solutiontxlist" class="box background-secondary transaction-list tab-pane active box background-secondary" style="overflow-x:auto; min-height:480px;">
+        <div class='subtitle'>Recent Solutions</div>
+        <table class='table zeroauto'>
+
+          <thead>
+            <tr>
+              <td> Block </td>
+              <td> TxHash </td>
+              <td> Status </td>
+            </tr>
+          </thead>
+
+          <tbody>
+
+            <tr v-for="(item, index) in transactions.tx_list" v-bind:class="item.htmlClass">
+              <td> {{ item.block }} </td>
+              <td>
+
+                <a v-bind:href='item.txURL'>
+                  {{ item.txHash }}
+                </a>
+              </td>
+
+              <td class="tx-status-cell"> {{ item.formattedStatus}} </td>
+            </tr>
+
+          </tbody>
+        </table>
+
+      </div>
+
+
+      <div id="transfertxlist" class="box background-secondary transaction-list tab-pane active box background-secondary" style="overflow-x:auto; min-height:480px;">
+        <div class='subtitle'>Recent Transfers</div>
+        <table class='table zeroauto'>
+
+          <thead>
+            <tr>
+              <td> Block </td>
+              <td> TxHash </td>
+              <td> Status </td>
+            </tr>
+          </thead>
+
+          <tbody>
+
+            <tr v-for="(item, index) in transactions.tx_list" v-bind:class="item.htmlClass">
+              <td> {{ item.block }} </td>
+              <td>
+                <a v-bind:href='item.txURL'>
+                  {{ item.txHash }}
+                </a>
+              </td>
+
+              <td class="tx-status-cell"> {{ item.formattedStatus}} </td>
+            </tr>
+
+          </tbody>
+        </table>
+
+        <h4>Notes</h4>
+        </div>
+      </div>
+
+
+
+      <div id="about" class="box background-secondary has-text-centered">
+
+        <div class="whitespace-sm"></div>
+
+        <div class='title'> 0xToken.org Mining Pool </div>
+
+
+        <div class="whitespace-sm"></div>
+
+        <div class='subtitle '> Mine Binance Smart Chain tokens distributed using Proof of Work with Proof of Burn and Shuffle built in </div>
+
+        <div class='subtitle '> Powers allow the heap to be reset, Difficulty to be dropped, More tokens to be mined along side, and more! Join Discord to find out or read the contract! </div>
+
+
+
+        <div class="">
+
+        </div>
+
+        <div class="">
+
+
+          <p> Read more on
+            <a href="https://reddit.com/r/tokenmining" target="_blank"> Reddit </a>
+          </p>
+
+
+
+        </div>
+      </div>
+
+      <h3>Other Links</h3>
+      <ul>
+      <li class="nav-item">
+        <a class="nav-link" href="https://docs.google.com/spreadsheets/d/1lpQufwMHeozyz2X5Xq9MhjLr_hVTkQfzpzXcdFQDRGg/edit#gid=0"
+          target="_blank"><i class="fas fa-calculator navIcon"></i>Mining Calculator</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="http://www.0xbitcoin.org"  class='navbar-item' target="_blank">
+          <i class="fas fa-chart-line navIcon"></i>0xBitcoin Website
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="http://www.vetherasset.io"  class='navbar-item' target="_blank">
+          <i class="fas fa-chart-line navIcon"></i>Vether  Website
+        </a>
+      </li>
+        </a>
+		
+      <li class="nav-item">
+        <a class="nav-link" href="http://"  class='navbar-item' target="_blank">
+          <i class="fas fa-chart-line navIcon"></i>Website
+        </a>
+      </li>
+      </li>
+      </ul>
+
+    </div>
+
+
+    <%= require('html-loader!./assets/html/footer.html') %>
+
+
+</body>
+
+</html>

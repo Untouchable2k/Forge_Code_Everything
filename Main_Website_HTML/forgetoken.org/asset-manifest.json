@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/guess/static/css/main.51a4e7ca.chunk.css",
+    "main.js": "/guess/static/js/main.8c195d07.chunk.js",
+    "main.js.map": "/guess/static/js/main.8c195d07.chunk.js.map",
+    "runtime-main.js": "/guess/static/js/runtime-main.81a06e4e.js",
+    "runtime-main.js.map": "/guess/static/js/runtime-main.81a06e4e.js.map",
+    "static/js/2.9cf6bd2b.chunk.js": "/guess/static/js/2.9cf6bd2b.chunk.js",
+    "static/js/2.9cf6bd2b.chunk.js.map": "/guess/static/js/2.9cf6bd2b.chunk.js.map",
+    "index.html": "/guess/index.html",
+    "static/css/main.51a4e7ca.chunk.css.map": "/guess/static/css/main.51a4e7ca.chunk.css.map",
+    "static/js/2.9cf6bd2b.chunk.js.LICENSE.txt": "/guess/static/js/2.9cf6bd2b.chunk.js.LICENSE.txt",
+    "static/media/eth.ee7fc645.png": "/guess/static/media/eth.ee7fc645.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.81a06e4e.js",
+    "static/js/2.9cf6bd2b.chunk.js",
+    "static/css/main.51a4e7ca.chunk.css",
+    "static/js/main.8c195d07.chunk.js"
+  ]
+}

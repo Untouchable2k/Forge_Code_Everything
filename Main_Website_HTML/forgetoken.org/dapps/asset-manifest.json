@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/dapps/static/css/main.b6ad9338.chunk.css",
+    "main.js": "/dapps/static/js/main.be4b7edc.chunk.js",
+    "main.js.map": "/dapps/static/js/main.be4b7edc.chunk.js.map",
+    "runtime-main.js": "/dapps/static/js/runtime-main.7a13743d.js",
+    "runtime-main.js.map": "/dapps/static/js/runtime-main.7a13743d.js.map",
+    "static/js/2.9cd2fb70.chunk.js": "/dapps/static/js/2.9cd2fb70.chunk.js",
+    "static/js/2.9cd2fb70.chunk.js.map": "/dapps/static/js/2.9cd2fb70.chunk.js.map",
+    "index.html": "/dapps/index.html",
+    "static/css/main.b6ad9338.chunk.css.map": "/dapps/static/css/main.b6ad9338.chunk.css.map",
+    "static/js/2.9cd2fb70.chunk.js.LICENSE.txt": "/dapps/static/js/2.9cd2fb70.chunk.js.LICENSE.txt",
+    "static/media/dai.a2c311e8.png": "/dapps/static/media/dai.a2c311e8.png",
+    "static/media/eth.6e1743e3.png": "/dapps/static/media/eth.6e1743e3.png",
+    "static/media/pow2.56016ef0.png": "/dapps/static/media/pow2.56016ef0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7a13743d.js",
+    "static/js/2.9cd2fb70.chunk.js",
+    "static/css/main.b6ad9338.chunk.css",
+    "static/js/main.be4b7edc.chunk.js"
+  ]
+}

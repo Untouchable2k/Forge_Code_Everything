@@ -1,0 +1,13 @@
+server {
+        listen 81;
+        listen [::]:81;
+
+        root /home/maindell/Desktop/try3333/public;
+        index index.html index.htmi index2.html index3.html index4.html index5.html index6.html index7.html index8.html index.nginx-debian.html;
+
+        server_name tealeafs.xyz www.tealeafs.xyz;
+
+        location / {
+                try_files $uri $uri/ =404;
+        }
+}

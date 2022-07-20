@@ -1,0 +1,10 @@
+{
+    "42": "kovan",
+    "4": "rinkeby",
+    "1": "mainnet",
+    "1337": "ganache",
+    "4002": "fantomTest",
+    "80001": "mumbai",
+    "69": "optikov",
+    "137": "polygon"
+}

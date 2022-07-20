@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+  <%= require('html-loader!./assets/html/head.html') %>
+
+</head>
+
+<body>
+  </script>
+  <%= require('html-loader!./assets/html/navbar.html') %>
+
+
+    <div class="page-container slate-theme " id="profile">
+
+      <section class="hero">
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h1 class="title font-primary-title color-primary">
+              Miner Profile
+            </h1>
+            <h2 class="subtitle">
+
+            </h2>
+
+
+            <div class="whitespace-sm"></div>
+
+
+          </div>
+      </section>
+
+
+      <div id="jumbotron" class="box  background-secondary " style="overflow-x:auto; ">
+        <div class='subtitle text-center'>
+          <a target=_blank v-bind:href='miner.minerData.etherscanURL'>
+            {{miner.minerData.address}}
+          </a>
+        </div>
+        <style type="text/css">
+          .xbtc {
+            height: 30px;
+            margin-bottom: 6px;
+          }
+        </style>
+
+
+
+
+<div class="row">
+  <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body text-center">
+        <h2 class="card-title">Effective Poolside Hashrate</h2>
+        <h4 class="card-text btn bitcoin-color" style='font-size:24px' v-cloak>
+        {{  Math.round(miner.minerData.hashRateFormatted ) }}
+        </h4>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body text-center">
+        <h2 class="card-title">Accumulated Shares This Block</h2>
+        <h4 class="card-text btn bitcoin-color" style='font-size:24px' v-cloak>
+		    <! --- HASHRATE 101 --->
+        {{ Math.round(miner.minerData.shareCredits / 10) }} 
+        </h4>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body text-center">
+        <h2 class="card-title">Unpaid 0xToken Balance</h2>
+        <h4 class="card-text btn bitcoin-color" style='font-size:24px' v-cloak> 
+        {{  miner.minerData.tokenBalanceFormatted }}  
+        </h4>
+      -->
+    </div>
+    <div class="card">
+      <div class="card-body text-center">
+        <h2 class="card-title">Total 0xBitcoin Paid Out</h2>
+        <h4 class="card-text btn bitcoin-color" style='font-size:24px' v-cloak>
+        {{ miner.minerData.tokensAwardedFormatted }}
+        </h4>
+      </div>
+    </div>
+  </div>
+    </div>
+  </div>
+</div>
+
+
+<p>&nbsp;</p>
+<p>The Hashrate is automatically updated every 30 seconds.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+      <ul class="nav nav-tabs" id="tabPanel" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" data-toggle="tab" href="#minerSubmittedSharesList">Submitted Shares</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#minerInvalidSharesList">Invalid Shares</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#minerBalanceTransfersList">Balance Transfer Receipts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#minerRewardsList">Mining Rewards</a>
+        </li>
+      </ul>
+
+
+
+
+
+      <div class="tab-content">
+        <div id="minerSubmittedSharesList" class="tab-pane active box background-secondary " style="overflow-x:auto; min-height:480px;">
+          <div class='subtitle'>Submitted Shares</div>
+          <!--<canvas id="submittedCanvas"></canvas> -->
+          <table class='table '>
+            <thead>
+              <tr>
+                <td> EthBlock </td>
+                <td> Time </td>
+                <td> Difficulty </td>
+                <td> Nonce </td>
+                <td> Is Full Solution </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="(item, index) in shares.share_list">
+                <td> {{ item.block }} </td>
+                <td> {{ item.timeFormatted }} </td>
+                <td> {{ item.difficulty }} </td>
+                <td> {{ item.nonce }} </td>
+                <td> {{ item.isSolution }} </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div id="minerInvalidSharesList" class="tab-pane box background-secondary " style="overflow-x:auto; min-height:480px;">
+          <div class='subtitle'>Invalid Shares</div>
+          <!-- <canvas id="invalidCanvas"></canvas> -->
+          <table class='table '>
+            <thead>
+              <tr>
+                <td> EthBlock </td>
+                <td> Time </td>
+                <td> Difficulty </td>
+                <td> Nonce </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="(item, index) in shares.share_list">
+                <td> {{ item.block }} </td>
+                <td> {{ item.timeFormatted }} </td>
+                <td> {{ item.difficulty }} </td>
+                <td> {{ item.nonce }} </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div id="minerBalanceTransfersList" class="tab-pane box background-secondary " style="overflow-x:auto; min-height:480px;">
+          <div class="subSection" style="margin-bottom: 50px;">
+            <div class='subtitle'>Balance Transfers Reciepts</div>
+            <table class='table '>
+              <thead>
+                <tr>
+                  <td> EthBlock </td>
+                  <td> 0xBitcoin Amount Sent </td>
+                  <td> Sedo Amount Sent </td>
+                  <td> Confirmed Ethereum Transaction Id  </td>
+                  <td> Pool Payout Id </td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="(item, index) in newTransactions">
+                  <td> {{ item.block }} </td>
+                  <td> {{ item.previousTokenBalanceFormatted }} </td>
+                  <td> {{ item.previousSedoTokenBalanceFormatted }} </td>
+                  <td>
+                    <a v-bind:href='item.etherscanTxURL'>
+                      <p> {{ item.txHash }} </p>
+                    </a>
+                  </td>
+                   <td> {{ item.id }} </td>
+                </tr>
+              </tbody>
+            </table>
+            <p> There may be multiple Pool Payout Ids in the table, if there are that means the pool attempted to payout for that ID multiple times, until it is confirmed by the ethereum network.</p>
+          </div>
+        </div>
+        <div id="minerRewardsList" class="tab-pane active box background-secondary " style="overflow-x:auto; min-height:480px;">
+          <div class='subtitle'>Miner Rewards </div>
+          <table class='table '>
+            <thead>
+              <tr>
+                <td> Time </td>
+                <td> Your Shares </td>
+                <td> Total Pool Shares </td>
+                <td> Your Percent of Pool Shares </td>
+                <td> Your 0xBitcoin Reward</td>
+                <td> Previous Unpaid Balance </td>
+                <td> New Unpaid balance </td>
+                <td> Total 0xBitcoin Paid out</td>
+                <td> Your Sedo Reward</td>
+                <td> Sedo Unpaid balance </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="(item, index) in rewards.share_list">
+                <td><a   v-bind:href='item.txlink'  target=_blank> {{ item.timeFormatted }} </a></td>
+                <td> {{ item.shares }} </td>
+                <td> {{ item.totalShares }} </td>
+                <td> {{ Math.round(item.shares / item.totalShares*100*100)/100 }}% </td>
+                <td> {{ Math.round(item.reward/1E8*100)/100 }} </td>
+                <td> {{ Math.round(item.previousTokenBalance/1E8*100)/100 }}</td>
+                <td> {{ Math.round(item.newTokenBalance/1E8*100)/100 }}</td>
+                <td> {{  Math.round(item.tokensAwarded/1E8*100)/100 }} </td>
+
+                <td> {{ Math.round((item.sedoReward||0)/1E8*100)/100 }} </td>
+                <td> {{ Math.round((item.sedoTokenBalance||0)/1E8*100)/100 }} </td>
+
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+
+
+      <div id="about" class="box background-secondary has-text-centered">
+        <div class="whitespace-sm"></div>
+
+
+        <div class="">
+          <p> Read more on
+            <a href="https://reddit.com/r/tokenmining" target="_blank"> Reddit </a>
+          </p>
+
+
+        </div>
+      </div>
+
+
+      </div>
+
+
+      <%= require('html-loader!./assets/html/footer.html') %>
+</body>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

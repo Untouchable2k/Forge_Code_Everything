@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+
+  <%= require('html-loader!./assets/html/head.html') %>
+  <style>
+    .tableCell {
+      padding: 20px 12px 20px 12px !important;
+      font-size: 1.25rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <%= require('html-loader!./assets/html/navbar.html') %>
+
+
+    <div class="page-container slate-theme" id="account">
+
+      <section class="hero">
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h1 class="title font-primary-title color-primary">
+              Mining Account List
+            </h1>
+            <h2 class="subtitle">
+              Token Mining Pool
+            </h2>
+
+
+
+            <div class="whitespace-sm"></div>
+
+
+
+            <!--      <div id="view-account-form" class="box has-text-centered">
+
+             <input class="" v-model="mining_address" placeholder="Mining address">
+
+             <div class="button-bubble button-primary view-account-button acts-as-link"> View your Shares </div>
+
+          </div>
+        -->
+
+
+
+          </div>
+      </section>
+
+      <div id="accountlist" class="box  background-secondary" style="overflow-x:auto; min-height:480px;">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">Filter</span><!--changeFilter(event.target.value)-->
+          </div>
+          <input type="text" class="form-control" placeholder="Address" v-model="filter" aria-label="Address" aria-describedby="basic-addon1">
+        </div>
+        <div class='subtitle'>Miners</div>
+        <table class='table table-striped'>
+          <thead>
+            <tr>
+              <th scope="col">Miner #</th>
+              <th scope="col">Eth Address</th>
+              <th scope="col">Hash Rate</th>
+              <th scope="col">Share %</th>
+              <th scope="col">Token Balance</th>
+              <th scope="col">Tokens Earned</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="(item, index) in filteredList">
+              <th class="tableCell" scope="row">{{ index + 1 }}</td>
+              <td class="tableCell">
+                <a v-bind:href='item.profileURL'>
+                  <span>{{ item.minerAddress }}</span>
+                </a>
+              </td>
+              <td class="tableCell">{{ item.minerData.hashRateFormatted }}</td>
+              <td class="tableCell">{{ item.minerData.sharesPercent}}</td>
+              <td class="tableCell">{{ item.minerData.tokenBalanceFormatted }}</td>
+              <td class="tableCell">{{ item.minerData.tokenRewardsFormatted }}</td>
+            </tr>
+          </tbody>
+        </table>
+        <div>
+        Loading... Please wait a moment... 
+        </div>
+
+      </div>
+
+      <!--
+      <div id="poolstats" class="box  " style="overflow-x:auto; min-height:480px;">
+        <div class='subtitle'>Pool Stats</div>
+        <table class='table'>
+
+          <tbody>
+            <tr> <td> Network: MAINNET </td> </tr>
+          </tbody>
+        </table>
+
+      </div>
+
+    -->
+
+
+
+
+
+      <div id="about" class="   background-secondary has-text-centered">
+
+        <div class="whitespace-sm"></div>
+        <div class='title'> Token Mining Pool </div>
+        <div class="whitespace-sm"></div>
+        <div class='subtitle '> Mine Ethereum tokens distributed using Proof of Work </div>
+
+
+        <div class="">
+
+        </div>
+
+        <div class="">
+          <p> Read more on
+            <a href="https://reddit.com/r/tokenmining" target="_blank"> Reddit </a>
+          </p>
+
+
+        </div>
+      </div>
+
+
+      </div>
+
+
+      <%= require('html-loader!./assets/html/footer.html') %>
+
+
+</body>
+
+</html>

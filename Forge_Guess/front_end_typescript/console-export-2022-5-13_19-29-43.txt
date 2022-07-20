@@ -1,0 +1,1038 @@
+The development server has disconnected.
+Refresh the page if necessary. vendors~main.chunk.js:106102:13
+GEThttp://localhost:3000/
+[HTTP/1.1 304 Not Modified 1ms]
+
+GEThttp://localhost:3000/static/js/bundle.js
+[HTTP/1.1 304 Not Modified 1ms]
+
+GEThttp://localhost:3000/static/js/vendors~main.chunk.js
+[HTTP/1.1 304 Not Modified 16ms]
+
+GEThttp://localhost:3000/static/js/main.chunk.js
+[HTTP/1.1 304 Not Modified 22ms]
+
+[HMR] Waiting for update signal from WDS... log.js:24
+GETws://localhost:3000/sockjs-node
+[HTTP/1.1 101 Switching Protocols 1ms]
+
+undefined Main.tsx:44
+ABlock51 Main.tsx:47
+MetaMask: 'ethereum.send(...)' is deprecated and may be removed in the future. Please use 'ethereum.sendAsync(...)' or 'ethereum.request(...)' instead.
+For more information, see: https://eips.ethereum.org/EIPS/eip-1193 inpage.js:1:44206
+GEThttp://localhost:3000/forgeicon.ico
+[HTTP/1.1 200 OK 0ms]
+
+src/components/ConnectionRequiredMsg.tsx
+  Line 16:43:  'deactivate' is assigned a value but never used                                                                                                                                        @typescript-eslint/no-unused-vars
+  Line 18:9:   'isConnected' is assigned a value but never used                                                                                                                                       @typescript-eslint/no-unused-vars
+  Line 39:7:   Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src/components/SliderInput2.tsx
+  Line 49:9:  'sliderStep' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/SliderInput3.tsx
+  Line 100:8:   Use the isNaN function to compare with NaN  use-isnan
+  Line 100:14:  Expected '===' and ins…
+webpackHotDevClient.js:138
+GEThttp://localhost:3000/forgeicon.ico
+[HTTP/1.1 304 Not Modified 1ms]
+
+MetaMask: The event 'close' is deprecated and may be removed in the future. Please use 'disconnect' instead.
+For more information, see: https://eips.ethereum.org/EIPS/eip-1193#disconnect inpage.js:1:43827
+MetaMask: The event 'networkChanged' is deprecated and may be removed in the future. Use 'chainChanged' instead.
+For more information, see: https://eips.ethereum.org/EIPS/eip-1193#chainchanged inpage.js:1:43827
+number Main.tsx:44
+ABlock51 Main.tsx:47
+ABlock155 WalletBalance.tsx:23
+GEThttp://localhost:3000/static/media/eth.ee7fc645.png
+[HTTP/1.1 304 Not Modified 1ms]
+
+ABlock NaN StakeForm.tsx:72
+TB2  NaN allowance2.ts:37
+FFZ12 2 aBlock2.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=blockNumForBetID args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=blockNumForBetID args=NaN 6 useContractCall.ts:8
+ABlock2 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:78
+FFZ12 2 allowance12.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betAmt args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betAmt args=NaN 6 useContractCall.ts:8
+TESTSS 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+allowance12.ts:128
+betAmts 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:82
+FFZ12 2 allowance3.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args=NaN 6 useContractCall.ts:8
+FFZ12 2 aWinnings.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=winnings args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=winnings args=NaN 6 useContractCall.ts:8
+TESTSS 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+aWinnings.ts:128
+FFZ12 2 allowance.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betResults args=NaN 6 useContractCall.ts:8
+TB22  NaN allowance.ts:116
+bet2Results 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:88
+FFZ12 2 allowance4.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betOdds args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betOdds args=NaN 6 useContractCall.ts:8
+Bet2Odds 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:92
+CCC 10.000000000000000000 StakeForm.tsx:214
+USER NEEDS CHAINLINK ON BET StakeForm.tsx:288
+USER NEEDS CHAINLINK ON BET StakeForm.tsx:298
+overRide 0 StakeForm.tsx:337
+balance undefined Unstake.tsx:54
+ff 0 allowance6.ts:27
+T 
+Object { interface: {…}, provider: null, signer: null, callStatic: {…}, estimateGas: {…}, functions: {…}, populateTransaction: {…}, filters: {…}, _runningEvents: {}, _wrappedEmits: {}, … }
+useStakeTokens4.ts:44
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=dontStakePerc args= useContractCall.ts:8
+aprovedForge undefined Unstake.tsx:261
+Problem Unstake.tsx:272
+ff 10000000000000 allowance6.ts:27
+profitBetsMsg Your profit on Guessing Game is 0 Forge Unstake.tsx:339
+tokenAddress 0xF44fB43066F7ECC91058E3A614Fb8A15A2735276 Unstake.tsx:423
+FFZZZ23 Infinity% SliderInput3.tsx:55
+OVER OVER OVER SliderInput3.tsx:57
+OVER OVER OVER SliderInput3.tsx:73
+Warning: React does not recognize the `minValue` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `minvalue` instead. If you accidentally passed it from a parent component, remove it from the DOM element.
+    in div (at SliderInput3.tsx:113)
+    in SliderInput3 (at Unstake.tsx:454)
+    in div (at Unstake.tsx:446)
+    in Unstake (at TokenFarmContract.tsx:69)
+    in div (created by ForwardRef(TabPanel))
+    in ForwardRef(TabPanel) (created by WithStyles(ForwardRef(TabPanel)))
+    in WithStyles(ForwardRef(TabPanel)) (at TokenFarmContract.tsx:68)
+    in TabContext (at TokenFarmContract.tsx:54)
+    in div (at TokenFarmContract.tsx:52)
+    in div (created by Styled(MuiBox))
+    in Styled(MuiBox) (at TokenFarmContract.tsx:51)
+    in div (created by Styled(MuiBox))
+    in Styled(MuiBox) (at TokenFarmContract.tsx:49)
+    in TokenFarmContract (at Main.tsx:127)
+    in Main (at App.tsx:18)
+    in div (created by ForwardRef(Container))
+    in ForwardRef(Container) (created by WithStyles(ForwardRef(Container)))
+    in WithStyles(ForwardRef(Container)) (at App.tsx:17)
+    in TransactionProvider (created by DAppProviderWithConfig)
+    in NotificationsProvider (created by DAppProviderWithConfig)
+    in ChainStateProvider (created by DAppProviderWithConfig)
+    in LocalMulticallProvider (created by DAppProviderWithConfig)
+    in BlockNumberProvider (created by DAppProviderWithConfig)
+    in Web3ReactProvider (created by EthersProvider)
+    in EthersProvider (created by DAppProviderWithConfig)
+    in DAppProviderWithConfig (created by DAppProvider)
+    in ConfigProvider (created by DAppProvider)
+    in DAppProvider (at App.tsx:9)
+    in App (at src/index.tsx:7) index.js:1
+ABlock155 WalletBalance.tsx:23
+ABlock NaN StakeForm.tsx:72
+TB2  NaN allowance2.ts:37
+FFZ12 2 aBlock2.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=blockNumForBetID args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=blockNumForBetID args=NaN 6 useContractCall.ts:8
+ABlock2 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:78
+FFZ12 2 allowance12.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betAmt args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betAmt args=NaN 6 useContractCall.ts:8
+TESTSS 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+allowance12.ts:128
+betAmts 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:82
+FFZ12 2 allowance3.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args=NaN 6 useContractCall.ts:8
+FFZ12 2 aWinnings.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=winnings args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=winnings args=NaN 6 useContractCall.ts:8
+TESTSS 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+aWinnings.ts:128
+FFZ12 2 allowance.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betResults args=NaN 6 useContractCall.ts:8
+TB22  NaN allowance.ts:116
+bet2Results 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:88
+FFZ12 2 allowance4.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betOdds args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betOdds args=NaN 6 useContractCall.ts:8
+Bet2Odds 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:92
+CCC 10.000000000000000000 StakeForm.tsx:214
+USER NEEDS CHAINLINK ON BET StakeForm.tsx:288
+USER NEEDS CHAINLINK ON BET StakeForm.tsx:298
+overRide 0 StakeForm.tsx:337
+balance undefined Unstake.tsx:54
+ff 0 allowance6.ts:27
+T 
+Object { interface: {…}, provider: null, signer: null, callStatic: {…}, estimateGas: {…}, functions: {…}, populateTransaction: {…}, filters: {…}, _runningEvents: {}, _wrappedEmits: {}, … }
+useStakeTokens4.ts:44
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=dontStakePerc args= useContractCall.ts:8
+aprovedForge undefined Unstake.tsx:261
+Problem Unstake.tsx:272
+ff 10000000000000 allowance6.ts:27
+profitBetsMsg Your profit on Guessing Game is 0 Forge Unstake.tsx:339
+tokenAddress 0xF44fB43066F7ECC91058E3A614Fb8A15A2735276 Unstake.tsx:423
+FFZZZ23 Infinity% SliderInput3.tsx:55
+OVER OVER OVER SliderInput3.tsx:57
+OVER OVER OVER SliderInput3.tsx:73
+ABlock155 WalletBalance.tsx:23
+ABlock NaN StakeForm.tsx:72
+TB2  NaN allowance2.ts:37
+FFZ12 2 aBlock2.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=blockNumForBetID args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=blockNumForBetID args=NaN 6 useContractCall.ts:8
+ABlock2 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:78
+FFZ12 2 allowance12.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betAmt args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betAmt args=NaN 6 useContractCall.ts:8
+TESTSS 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+allowance12.ts:128
+betAmts 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:82
+FFZ12 2 allowance3.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args=NaN 6 useContractCall.ts:8
+FFZ12 2 aWinnings.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=winnings args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=winnings args=NaN 6 useContractCall.ts:8
+TESTSS 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+aWinnings.ts:128
+FFZ12 2 allowance.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betResults args=NaN 6 useContractCall.ts:8
+TB22  NaN allowance.ts:116
+bet2Results 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:88
+FFZ12 2 allowance4.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betOdds args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betOdds args=NaN 6 useContractCall.ts:8
+Bet2Odds 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:92
+CCC 10.000000000000000000 StakeForm.tsx:214
+USER NEEDS CHAINLINK ON BET StakeForm.tsx:288
+USER NEEDS CHAINLINK ON BET StakeForm.tsx:298
+overRide 0 StakeForm.tsx:337
+balance undefined Unstake.tsx:54
+ff 0 allowance6.ts:27
+T 
+Object { interface: {…}, provider: null, signer: null, callStatic: {…}, estimateGas: {…}, functions: {…}, populateTransaction: {…}, filters: {…}, _runningEvents: {}, _wrappedEmits: {}, … }
+useStakeTokens4.ts:44
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=dontStakePerc args= useContractCall.ts:8
+aprovedForge undefined Unstake.tsx:261
+Problem Unstake.tsx:272
+ff 10000000000000 allowance6.ts:27
+profitBetsMsg Your profit on Guessing Game is 0 Forge Unstake.tsx:339
+tokenAddress 0xF44fB43066F7ECC91058E3A614Fb8A15A2735276 Unstake.tsx:423
+FFZZZ23 Infinity% SliderInput3.tsx:55
+OVER OVER OVER SliderInput3.tsx:57
+OVER OVER OVER SliderInput3.tsx:73
+ABlock155 WalletBalance.tsx:23
+ABlock NaN StakeForm.tsx:72
+TB2  NaN allowance2.ts:37
+FFZ12 2 aBlock2.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=blockNumForBetID args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=blockNumForBetID args=NaN 6 useContractCall.ts:8
+ABlock2 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:78
+FFZ12 2 allowance12.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betAmt args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betAmt args=NaN 6 useContractCall.ts:8
+TESTSS 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+allowance12.ts:128
+betAmts 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:82
+FFZ12 2 allowance3.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args=NaN 6 useContractCall.ts:8
+FFZ12 2 aWinnings.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=winnings args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=winnings args=NaN 6 useContractCall.ts:8
+TESTSS 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+aWinnings.ts:128
+FFZ12 2 allowance.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betResults args=NaN 6 useContractCall.ts:8
+TB22  NaN allowance.ts:116
+bet2Results 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:88
+FFZ12 2 allowance4.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betOdds args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betOdds args=NaN 6 useContractCall.ts:8
+Bet2Odds 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:92
+CCC 10.000000000000000000 StakeForm.tsx:214
+USER NEEDS CHAINLINK ON BET StakeForm.tsx:288
+USER NEEDS CHAINLINK ON BET StakeForm.tsx:298
+overRide 0 StakeForm.tsx:337
+balance undefined Unstake.tsx:54
+ff 0 allowance6.ts:27
+T 
+Object { interface: {…}, provider: null, signer: null, callStatic: {…}, estimateGas: {…}, functions: {…}, populateTransaction: {…}, filters: {…}, _runningEvents: {}, _wrappedEmits: {}, … }
+useStakeTokens4.ts:44
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=dontStakePerc args= useContractCall.ts:8
+aprovedForge undefined Unstake.tsx:261
+Problem Unstake.tsx:272
+ff 10000000000000 allowance6.ts:27
+profitBetsMsg Your profit on Guessing Game is 0 Forge Unstake.tsx:339
+tokenAddress 0xF44fB43066F7ECC91058E3A614Fb8A15A2735276 Unstake.tsx:423
+FFZZZ23 Infinity% SliderInput3.tsx:55
+OVER OVER OVER SliderInput3.tsx:57
+OVER OVER OVER SliderInput3.tsx:73
+ABlock NaN StakeForm.tsx:72
+TB2  NaN allowance2.ts:37
+FFZ12 2 aBlock2.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=blockNumForBetID args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=blockNumForBetID args=NaN 6 useContractCall.ts:8
+ABlock2 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:78
+FFZ12 2 allowance12.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betAmt args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betAmt args=NaN 6 useContractCall.ts:8
+TESTSS 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+allowance12.ts:128
+betAmts 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:82
+FFZ12 2 allowance3.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args=NaN 6 useContractCall.ts:8
+FFZ12 2 aWinnings.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=winnings args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=winnings args=NaN 6 useContractCall.ts:8
+TESTSS 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+aWinnings.ts:128
+FFZ12 2 allowance.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betResults args=NaN 6 useContractCall.ts:8
+TB22  NaN allowance.ts:116
+bet2Results 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:88
+FFZ12 2 allowance4.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betOdds args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betOdds args=NaN 6 useContractCall.ts:8
+Bet2Odds 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:92
+CCC 10.000000000000000000 StakeForm.tsx:214
+USER NEEDS CHAINLINK ON BET StakeForm.tsx:288
+USER NEEDS CHAINLINK ON BET StakeForm.tsx:298
+overRide 0 StakeForm.tsx:337
+balance undefined Unstake.tsx:54
+ff 0 allowance6.ts:27
+T 
+Object { interface: {…}, provider: null, signer: null, callStatic: {…}, estimateGas: {…}, functions: {…}, populateTransaction: {…}, filters: {…}, _runningEvents: {}, _wrappedEmits: {}, … }
+useStakeTokens4.ts:44
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=dontStakePerc args= useContractCall.ts:8
+aprovedForge undefined Unstake.tsx:261
+Problem Unstake.tsx:272
+ff 10000000000000 allowance6.ts:27
+profitBetsMsg Your profit on Guessing Game is 0 Forge Unstake.tsx:339
+tokenAddress 0xF44fB43066F7ECC91058E3A614Fb8A15A2735276 Unstake.tsx:423
+FFZZZ23 Infinity% SliderInput3.tsx:55
+OVER OVER OVER SliderInput3.tsx:57
+OVER OVER OVER SliderInput3.tsx:73
+ABlock NaN StakeForm.tsx:72
+TB2  NaN allowance2.ts:37
+FFZ12 2 aBlock2.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=blockNumForBetID args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=blockNumForBetID args=NaN 6 useContractCall.ts:8
+ABlock2 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:78
+FFZ12 2 allowance12.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betAmt args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betAmt args=NaN 6 useContractCall.ts:8
+TESTSS 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+allowance12.ts:128
+betAmts 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:82
+FFZ12 2 allowance3.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args=NaN 6 useContractCall.ts:8
+FFZ12 2 aWinnings.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=winnings args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=winnings args=NaN 6 useContractCall.ts:8
+TESTSS 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+aWinnings.ts:128
+FFZ12 2 allowance.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betResults args=NaN 6 useContractCall.ts:8
+TB22  NaN allowance.ts:116
+bet2Results 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:88
+FFZ12 2 allowance4.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betOdds args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betOdds args=NaN 6 useContractCall.ts:8
+Bet2Odds 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:92
+CCC 10.000000000000000000 StakeForm.tsx:214
+USER NEEDS CHAINLINK ON BET StakeForm.tsx:288
+USER NEEDS CHAINLINK ON BET StakeForm.tsx:298
+overRide 0 StakeForm.tsx:337
+balance undefined Unstake.tsx:54
+ff 0 allowance6.ts:27
+T 
+Object { interface: {…}, provider: null, signer: null, callStatic: {…}, estimateGas: {…}, functions: {…}, populateTransaction: {…}, filters: {…}, _runningEvents: {}, _wrappedEmits: {}, … }
+useStakeTokens4.ts:44
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=dontStakePerc args= useContractCall.ts:8
+aprovedForge undefined Unstake.tsx:261
+Problem Unstake.tsx:272
+ff 10000000000000 allowance6.ts:27
+profitBetsMsg Your profit on Guessing Game is 0 Forge Unstake.tsx:339
+tokenAddress 0xF44fB43066F7ECC91058E3A614Fb8A15A2735276 Unstake.tsx:423
+FFZZZ23 Infinity% SliderInput3.tsx:55
+OVER OVER OVER SliderInput3.tsx:57
+OVER OVER OVER SliderInput3.tsx:73
+ABlock NaN StakeForm.tsx:72
+TB2  NaN allowance2.ts:37
+FFZ12 2 aBlock2.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=blockNumForBetID args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=blockNumForBetID args=NaN 6 useContractCall.ts:8
+ABlock2 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:78
+FFZ12 2 allowance12.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betAmt args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betAmt args=NaN 6 useContractCall.ts:8
+TESTSS 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+allowance12.ts:128
+betAmts 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:82
+FFZ12 2 allowance3.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args=NaN 6 useContractCall.ts:8
+FFZ12 2 aWinnings.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=winnings args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=winnings args=NaN 6 useContractCall.ts:8
+TESTSS 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+aWinnings.ts:128
+FFZ12 2 allowance.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betResults args=NaN 6 useContractCall.ts:8
+TB22  NaN allowance.ts:116
+bet2Results 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:88
+FFZ12 2 allowance4.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betOdds args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betOdds args=NaN 6 useContractCall.ts:8
+Bet2Odds 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:92
+CCC 10.000000000000000000 StakeForm.tsx:214
+USER NEEDS CHAINLINK ON BET StakeForm.tsx:288
+USER NEEDS CHAINLINK ON BET StakeForm.tsx:298
+overRide 0 StakeForm.tsx:337
+balance undefined Unstake.tsx:54
+ff 0 allowance6.ts:27
+T 
+Object { interface: {…}, provider: null, signer: null, callStatic: {…}, estimateGas: {…}, functions: {…}, populateTransaction: {…}, filters: {…}, _runningEvents: {}, _wrappedEmits: {}, … }
+useStakeTokens4.ts:44
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=dontStakePerc args= useContractCall.ts:8
+aprovedForge undefined Unstake.tsx:261
+Problem Unstake.tsx:272
+ff 10000000000000 allowance6.ts:27
+profitBetsMsg Your profit on Guessing Game is 0 Forge Unstake.tsx:339
+tokenAddress 0xF44fB43066F7ECC91058E3A614Fb8A15A2735276 Unstake.tsx:423
+FFZZZ23 Infinity% SliderInput3.tsx:55
+OVER OVER OVER SliderInput3.tsx:57
+OVER OVER OVER SliderInput3.tsx:73
+MetaMask - RPC Error: Internal JSON-RPC error. 
+Object { code: -32603, message: "Internal JSON-RPC error.", data: {…} }
+inpage.js:1:51866
+Object { code: -32603, message: "Internal JSON-RPC error.", data: {…} }
+index.js:1
+ABlock155 WalletBalance.tsx:23
+ABlock NaN StakeForm.tsx:72
+TB2  NaN allowance2.ts:37
+FFZ12 2 aBlock2.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=blockNumForBetID args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=blockNumForBetID args=NaN 6 useContractCall.ts:8
+ABlock2 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:78
+FFZ12 2 allowance12.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betAmt args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betAmt args=NaN 6 useContractCall.ts:8
+TESTSS 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+allowance12.ts:128
+betAmts 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:82
+FFZ12 2 allowance3.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args=NaN 6 useContractCall.ts:8
+FFZ12 2 aWinnings.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=winnings args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=winnings args=NaN 6 useContractCall.ts:8
+TESTSS 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+aWinnings.ts:128
+FFZ12 2 allowance.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betResults args=NaN 6 useContractCall.ts:8
+TB22  NaN allowance.ts:116
+bet2Results 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:88
+FFZ12 2 allowance4.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betOdds args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betOdds args=NaN 6 useContractCall.ts:8
+Bet2Odds 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:92
+CCC 10.000000000000000000 StakeForm.tsx:214
+USER NEEDS CHAINLINK ON BET StakeForm.tsx:288
+USER NEEDS CHAINLINK ON BET StakeForm.tsx:298
+overRide 0 StakeForm.tsx:337
+balance undefined Unstake.tsx:54
+ff 0 allowance6.ts:27
+T 
+Object { interface: {…}, provider: null, signer: null, callStatic: {…}, estimateGas: {…}, functions: {…}, populateTransaction: {…}, filters: {…}, _runningEvents: {}, _wrappedEmits: {}, … }
+useStakeTokens4.ts:44
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=dontStakePerc args= useContractCall.ts:8
+aprovedForge undefined Unstake.tsx:261
+Problem Unstake.tsx:272
+ff 10000000000000 allowance6.ts:27
+profitBetsMsg Your profit on Guessing Game is 0 Forge Unstake.tsx:339
+tokenAddress 0xF44fB43066F7ECC91058E3A614Fb8A15A2735276 Unstake.tsx:423
+FFZZZ23 Infinity% SliderInput3.tsx:55
+OVER OVER OVER SliderInput3.tsx:57
+OVER OVER OVER SliderInput3.tsx:73
+temp0
+Object { code: -32603, message: "Internal JSON-RPC error.", data: {…} }
+
+ABlock155 WalletBalance.tsx:23
+ABlock NaN StakeForm.tsx:72
+TB2  NaN allowance2.ts:37
+FFZ12 2 aBlock2.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=blockNumForBetID args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=blockNumForBetID args=NaN 6 useContractCall.ts:8
+ABlock2 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:78
+FFZ12 2 allowance12.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betAmt args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betAmt args=NaN 6 useContractCall.ts:8
+TESTSS 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+allowance12.ts:128
+betAmts 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:82
+FFZ12 2 allowance3.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args=NaN 6 useContractCall.ts:8
+FFZ12 2 aWinnings.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=winnings args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=winnings args=NaN 6 useContractCall.ts:8
+TESTSS 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+aWinnings.ts:128
+FFZ12 2 allowance.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betResults args=NaN 6 useContractCall.ts:8
+TB22  NaN allowance.ts:116
+bet2Results 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:88
+FFZ12 2 allowance4.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betOdds args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betOdds args=NaN 6 useContractCall.ts:8
+Bet2Odds 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:92
+CCC 10.000000000000000000 StakeForm.tsx:214
+USER NEEDS CHAINLINK ON BET StakeForm.tsx:288
+USER NEEDS CHAINLINK ON BET StakeForm.tsx:298
+overRide 0 StakeForm.tsx:337
+balance undefined Unstake.tsx:54
+ff 0 allowance6.ts:27
+T 
+Object { interface: {…}, provider: null, signer: null, callStatic: {…}, estimateGas: {…}, functions: {…}, populateTransaction: {…}, filters: {…}, _runningEvents: {}, _wrappedEmits: {}, … }
+useStakeTokens4.ts:44
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=dontStakePerc args= useContractCall.ts:8
+aprovedForge undefined Unstake.tsx:261
+Problem Unstake.tsx:272
+ff 10000000000000 allowance6.ts:27
+profitBetsMsg Your profit on Guessing Game is 0 Forge Unstake.tsx:339
+tokenAddress 0xF44fB43066F7ECC91058E3A614Fb8A15A2735276 Unstake.tsx:423
+FFZZZ23 Infinity% SliderInput3.tsx:55
+OVER OVER OVER SliderInput3.tsx:57
+OVER OVER OVER SliderInput3.tsx:73
+ABlock NaN StakeForm.tsx:72
+TB2  NaN allowance2.ts:37
+FFZ12 2 aBlock2.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=blockNumForBetID args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=blockNumForBetID args=NaN 6 useContractCall.ts:8
+ABlock2 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:78
+FFZ12 2 allowance12.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betAmt args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betAmt args=NaN 6 useContractCall.ts:8
+TESTSS 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+allowance12.ts:128
+betAmts 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:82
+FFZ12 2 allowance3.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args=NaN 6 useContractCall.ts:8
+FFZ12 2 aWinnings.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=winnings args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=winnings args=NaN 6 useContractCall.ts:8
+TESTSS 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+aWinnings.ts:128
+FFZ12 2 allowance.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betResults args=NaN 6 useContractCall.ts:8
+TB22  NaN allowance.ts:116
+bet2Results 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:88
+FFZ12 2 allowance4.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betOdds args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betOdds args=NaN 6 useContractCall.ts:8
+Bet2Odds 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:92
+CCC 10.000000000000000000 StakeForm.tsx:214
+USER NEEDS CHAINLINK ON BET StakeForm.tsx:288
+USER NEEDS CHAINLINK ON BET StakeForm.tsx:298
+overRide 0 StakeForm.tsx:337
+balance undefined Unstake.tsx:54
+ff 0 allowance6.ts:27
+T 
+Object { interface: {…}, provider: null, signer: null, callStatic: {…}, estimateGas: {…}, functions: {…}, populateTransaction: {…}, filters: {…}, _runningEvents: {}, _wrappedEmits: {}, … }
+useStakeTokens4.ts:44
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=dontStakePerc args= useContractCall.ts:8
+aprovedForge undefined Unstake.tsx:261
+Problem Unstake.tsx:272
+ff 10000000000000 allowance6.ts:27
+profitBetsMsg Your profit on Guessing Game is 0 Forge Unstake.tsx:339
+tokenAddress 0xF44fB43066F7ECC91058E3A614Fb8A15A2735276 Unstake.tsx:423
+FFZZZ23 Infinity% SliderInput3.tsx:55
+OVER OVER OVER SliderInput3.tsx:57
+OVER OVER OVER SliderInput3.tsx:73
+ABlock NaN StakeForm.tsx:72
+TB2  NaN allowance2.ts:37
+FFZ12 2 aBlock2.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=blockNumForBetID args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=blockNumForBetID args=NaN 6 useContractCall.ts:8
+ABlock2 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:78
+FFZ12 2 allowance12.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betAmt args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betAmt args=NaN 6 useContractCall.ts:8
+TESTSS 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+allowance12.ts:128
+betAmts 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:82
+FFZ12 2 allowance3.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args=NaN 6 useContractCall.ts:8
+FFZ12 2 aWinnings.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=winnings args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=winnings args=NaN 6 useContractCall.ts:8
+TESTSS 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+aWinnings.ts:128
+FFZ12 2 allowance.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betResults args=NaN 6 useContractCall.ts:8
+TB22  NaN allowance.ts:116
+bet2Results 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:88
+FFZ12 2 allowance4.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betOdds args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betOdds args=NaN 6 useContractCall.ts:8
+Bet2Odds 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:92
+CCC 10.000000000000000000 StakeForm.tsx:214
+USER NEEDS CHAINLINK ON BET StakeForm.tsx:288
+USER NEEDS CHAINLINK ON BET StakeForm.tsx:298
+overRide 0 StakeForm.tsx:337
+balance undefined Unstake.tsx:54
+ff 0 allowance6.ts:27
+T 
+Object { interface: {…}, provider: null, signer: null, callStatic: {…}, estimateGas: {…}, functions: {…}, populateTransaction: {…}, filters: {…}, _runningEvents: {}, _wrappedEmits: {}, … }
+useStakeTokens4.ts:44
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=dontStakePerc args= useContractCall.ts:8
+aprovedForge undefined Unstake.tsx:261
+Problem Unstake.tsx:272
+ff 10000000000000 allowance6.ts:27
+profitBetsMsg Your profit on Guessing Game is 0 Forge Unstake.tsx:339
+tokenAddress 0xF44fB43066F7ECC91058E3A614Fb8A15A2735276 Unstake.tsx:423
+FFZZZ23 Infinity% SliderInput3.tsx:55
+OVER OVER OVER SliderInput3.tsx:57
+OVER OVER OVER SliderInput3.tsx:73
+MetaMask - RPC Error: Internal JSON-RPC error. 
+Object { code: -32603, message: "Internal JSON-RPC error.", data: {…} }
+​
+code: -32603
+​
+data: Object { code: -32000, message: "execution reverted" }
+​
+message: "Internal JSON-RPC error."
+​
+<prototype>: Object { … }
+inpage.js:1:51866
+Object { code: -32603, message: "Internal JSON-RPC error.", data: {…} }
+index.js:1
+ABlock155 WalletBalance.tsx:23
+ABlock NaN StakeForm.tsx:72
+TB2  NaN allowance2.ts:37
+FFZ12 2 aBlock2.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=blockNumForBetID args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=blockNumForBetID args=NaN 6 useContractCall.ts:8
+ABlock2 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:78
+FFZ12 2 allowance12.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betAmt args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betAmt args=NaN 6 useContractCall.ts:8
+TESTSS 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+allowance12.ts:128
+betAmts 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:82
+FFZ12 2 allowance3.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args=NaN 6 useContractCall.ts:8
+FFZ12 2 aWinnings.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=winnings args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=winnings args=NaN 6 useContractCall.ts:8
+TESTSS 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+aWinnings.ts:128
+FFZ12 2 allowance.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betResults args=NaN 6 useContractCall.ts:8
+TB22  NaN allowance.ts:116
+bet2Results 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:88
+FFZ12 2 allowance4.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betOdds args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betOdds args=NaN 6 useContractCall.ts:8
+Bet2Odds 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:92
+CCC 10.000000000000000000 StakeForm.tsx:214
+USER NEEDS CHAINLINK ON BET StakeForm.tsx:288
+USER NEEDS CHAINLINK ON BET StakeForm.tsx:298
+overRide 0 StakeForm.tsx:337
+balance undefined Unstake.tsx:54
+ff 0 allowance6.ts:27
+T 
+Object { interface: {…}, provider: null, signer: null, callStatic: {…}, estimateGas: {…}, functions: {…}, populateTransaction: {…}, filters: {…}, _runningEvents: {}, _wrappedEmits: {}, … }
+useStakeTokens4.ts:44
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=dontStakePerc args= useContractCall.ts:8
+aprovedForge undefined Unstake.tsx:261
+Problem Unstake.tsx:272
+ff 10000000000000 allowance6.ts:27
+profitBetsMsg Your profit on Guessing Game is 0 Forge Unstake.tsx:339
+tokenAddress 0xF44fB43066F7ECC91058E3A614Fb8A15A2735276 Unstake.tsx:423
+FFZZZ23 Infinity% SliderInput3.tsx:55
+OVER OVER OVER SliderInput3.tsx:57
+OVER OVER OVER SliderInput3.tsx:73
+ABlock155 WalletBalance.tsx:23
+ABlock NaN StakeForm.tsx:72
+TB2  NaN allowance2.ts:37
+FFZ12 2 aBlock2.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=blockNumForBetID args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=blockNumForBetID args=NaN 6 useContractCall.ts:8
+ABlock2 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:78
+FFZ12 2 allowance12.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betAmt args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betAmt args=NaN 6 useContractCall.ts:8
+TESTSS 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+allowance12.ts:128
+betAmts 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:82
+FFZ12 2 allowance3.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args=NaN 6 useContractCall.ts:8
+FFZ12 2 aWinnings.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=winnings args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=winnings args=NaN 6 useContractCall.ts:8
+TESTSS 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+aWinnings.ts:128
+FFZ12 2 allowance.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betResults args=NaN 6 useContractCall.ts:8
+TB22  NaN allowance.ts:116
+bet2Results 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:88
+FFZ12 2 allowance4.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betOdds args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betOdds args=NaN 6 useContractCall.ts:8
+Bet2Odds 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:92
+CCC 10.000000000000000000 StakeForm.tsx:214
+USER NEEDS CHAINLINK ON BET StakeForm.tsx:288
+USER NEEDS CHAINLINK ON BET StakeForm.tsx:298
+overRide 0 StakeForm.tsx:337
+balance undefined Unstake.tsx:54
+ff 0 allowance6.ts:27
+T 
+Object { interface: {…}, provider: null, signer: null, callStatic: {…}, estimateGas: {…}, functions: {…}, populateTransaction: {…}, filters: {…}, _runningEvents: {}, _wrappedEmits: {}, … }
+useStakeTokens4.ts:44
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=dontStakePerc args= useContractCall.ts:8
+aprovedForge undefined Unstake.tsx:261
+Problem Unstake.tsx:272
+ff 10000000000000 allowance6.ts:27
+profitBetsMsg Your profit on Guessing Game is 0 Forge Unstake.tsx:339
+tokenAddress 0xF44fB43066F7ECC91058E3A614Fb8A15A2735276 Unstake.tsx:423
+FFZZZ23 Infinity% SliderInput3.tsx:55
+OVER OVER OVER SliderInput3.tsx:57
+OVER OVER OVER SliderInput3.tsx:73
+ABlock NaN StakeForm.tsx:72
+TB2  NaN allowance2.ts:37
+FFZ12 2 aBlock2.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=blockNumForBetID args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=blockNumForBetID args=NaN 6 useContractCall.ts:8
+ABlock2 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:78
+FFZ12 2 allowance12.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betAmt args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betAmt args=NaN 6 useContractCall.ts:8
+TESTSS 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+allowance12.ts:128
+betAmts 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:82
+FFZ12 2 allowance3.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args=NaN 6 useContractCall.ts:8
+FFZ12 2 aWinnings.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=winnings args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=winnings args=NaN 6 useContractCall.ts:8
+TESTSS 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+aWinnings.ts:128
+FFZ12 2 allowance.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betResults args=NaN 6 useContractCall.ts:8
+TB22  NaN allowance.ts:116
+bet2Results 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:88
+FFZ12 2 allowance4.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betOdds args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betOdds args=NaN 6 useContractCall.ts:8
+Bet2Odds 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:92
+CCC 10.000000000000000000 StakeForm.tsx:214
+USER NEEDS CHAINLINK ON BET StakeForm.tsx:288
+USER NEEDS CHAINLINK ON BET StakeForm.tsx:298
+overRide 0 StakeForm.tsx:337
+balance undefined Unstake.tsx:54
+ff 0 allowance6.ts:27
+T 
+Object { interface: {…}, provider: null, signer: null, callStatic: {…}, estimateGas: {…}, functions: {…}, populateTransaction: {…}, filters: {…}, _runningEvents: {}, _wrappedEmits: {}, … }
+useStakeTokens4.ts:44
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=dontStakePerc args= useContractCall.ts:8
+aprovedForge undefined Unstake.tsx:261
+Problem Unstake.tsx:272
+ff 10000000000000 allowance6.ts:27
+profitBetsMsg Your profit on Guessing Game is 0 Forge Unstake.tsx:339
+tokenAddress 0xF44fB43066F7ECC91058E3A614Fb8A15A2735276 Unstake.tsx:423
+FFZZZ23 Infinity% SliderInput3.tsx:55
+OVER OVER OVER SliderInput3.tsx:57
+OVER OVER OVER SliderInput3.tsx:73
+ABlock NaN StakeForm.tsx:72
+TB2  NaN allowance2.ts:37
+FFZ12 2 aBlock2.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=blockNumForBetID args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=blockNumForBetID args=NaN 6 useContractCall.ts:8
+ABlock2 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:78
+FFZ12 2 allowance12.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betAmt args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betAmt args=NaN 6 useContractCall.ts:8
+TESTSS 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+allowance12.ts:128
+betAmts 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:82
+FFZ12 2 allowance3.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args=NaN 6 useContractCall.ts:8
+FFZ12 2 aWinnings.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=winnings args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=winnings args=NaN 6 useContractCall.ts:8
+TESTSS 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+aWinnings.ts:128
+FFZ12 2 allowance.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betResults args=NaN 6 useContractCall.ts:8
+TB22  NaN allowance.ts:116
+bet2Results 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:88
+FFZ12 2 allowance4.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betOdds args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betOdds args=NaN 6 useContractCall.ts:8
+Bet2Odds 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:92
+CCC 10.000000000000000000 StakeForm.tsx:214
+USER NEEDS CHAINLINK ON BET StakeForm.tsx:288
+USER NEEDS CHAINLINK ON BET StakeForm.tsx:298
+overRide 0 StakeForm.tsx:337
+balance undefined Unstake.tsx:54
+ff 0 allowance6.ts:27
+T 
+Object { interface: {…}, provider: null, signer: null, callStatic: {…}, estimateGas: {…}, functions: {…}, populateTransaction: {…}, filters: {…}, _runningEvents: {}, _wrappedEmits: {}, … }
+useStakeTokens4.ts:44
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=dontStakePerc args= useContractCall.ts:8
+aprovedForge undefined Unstake.tsx:261
+Problem Unstake.tsx:272
+ff 10000000000000 allowance6.ts:27
+profitBetsMsg Your profit on Guessing Game is 0 Forge Unstake.tsx:339
+tokenAddress 0xF44fB43066F7ECC91058E3A614Fb8A15A2735276 Unstake.tsx:423
+FFZZZ23 Infinity% SliderInput3.tsx:55
+OVER OVER OVER SliderInput3.tsx:57
+OVER OVER OVER SliderInput3.tsx:73
+MetaMask - RPC Error: Internal JSON-RPC error. 
+Object { code: -32603, message: "Internal JSON-RPC error.", data: {…} }
+inpage.js:1:51866
+Object { code: -32603, message: "Internal JSON-RPC error.", data: {…} }
+index.js:1
+ABlock155 WalletBalance.tsx:23
+ABlock NaN StakeForm.tsx:72
+TB2  NaN allowance2.ts:37
+FFZ12 2 aBlock2.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=blockNumForBetID args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=blockNumForBetID args=NaN 6 useContractCall.ts:8
+ABlock2 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:78
+FFZ12 2 allowance12.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betAmt args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betAmt args=NaN 6 useContractCall.ts:8
+TESTSS 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+allowance12.ts:128
+betAmts 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:82
+FFZ12 2 allowance3.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args=NaN 6 useContractCall.ts:8
+FFZ12 2 aWinnings.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=winnings args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=winnings args=NaN 6 useContractCall.ts:8
+TESTSS 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+aWinnings.ts:128
+FFZ12 2 allowance.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betee args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betResults args=NaN 6 useContractCall.ts:8
+TB22  NaN allowance.ts:116
+bet2Results 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:88
+FFZ12 2 allowance4.ts:41
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betOdds args= useContractCall.ts:8
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=betOdds args=NaN 6 useContractCall.ts:8
+Bet2Odds 
+Array(10) [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ]
+StakeForm.tsx:92
+CCC 10.000000000000000000 StakeForm.tsx:214
+USER NEEDS CHAINLINK ON BET StakeForm.tsx:288
+USER NEEDS CHAINLINK ON BET StakeForm.tsx:298
+overRide 0 StakeForm.tsx:337
+balance undefined Unstake.tsx:54
+ff 0 allowance6.ts:27
+T 
+Object { interface: {…}, provider: null, signer: null, callStatic: {…}, estimateGas: {…}, functions: {…}, populateTransaction: {…}, filters: {…}, _runningEvents: {}, _wrappedEmits: {}, … }
+useStakeTokens4.ts:44
+Invalid contract call: address=0xbB9C55d014Ce22782374180f7525B0B05Eb152a2 method=dontStakePerc args= useContractCall.ts:8
+aprovedForge undefined Unstake.tsx:261
+Problem Unstake.tsx:272
+ff 10000000000000 allowance6.ts:27
+profitBetsMsg Your profit on Guessing Game is 0 Forge Unstake.tsx:339
+tokenAddress 0xF44fB43066F7ECC91058E3A614Fb8A15A2735276 Unstake.tsx:423
+FFZZZ23 Infinity% SliderInput3.tsx:55
+OVER OVER OVER SliderInput3.tsx:57
+OVER OVER OVER SliderInput3.tsx:73
+src/components/ConnectionRequiredMsg.tsx
+  Line 16:43:  'deactivate' is assigned a value but never used                                                                                                                                        @typescript-eslint/no-unused-vars
+  Line 18:9:   'isConnected' is assigned a value but never used                                                                                                                                       @typescript-eslint/no-unused-vars
+  Line 39:7:   Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src/components/SliderInput2.tsx
+  Line 49:9:  'sliderStep' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/SliderInput3.tsx
+  Line 100:8:   Use the isNaN function to compare with NaN  use-isnan
+  Line 100:14:  Expected '===' and ins…
+webpackHotDevClient.js:138

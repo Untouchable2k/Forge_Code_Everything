@@ -1,0 +1,28 @@
+
+
+  .MuiAlert-root {
+    line-height: 1;
+  }
+
+  .MuiButton-root:hover {
+    background-color: green;
+  }
+  .MuiButton-label {
+    color: #fff;
+  }
+  .MuiAlert-standardSuccess{
+
+    background-color: #ff6a03;
+  }
+  .MuiAlert-message{
+      padding: 22px;
+      font-size:7em
+  }
+  .MuiSvgIcon-root{
+      font-size: 8em;
+  }
+
+  .MuiSvgIcon-fontSizeInherit{
+      font-size:5em;
+  }
+  

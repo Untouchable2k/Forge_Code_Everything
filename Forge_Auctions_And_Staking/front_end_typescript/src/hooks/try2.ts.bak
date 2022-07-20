@@ -1,0 +1,49 @@
+import { useEffect, useState } from "react"
+import { useContractFunction, useEthers } from "@usedapp/core"
+import { utils, constants } from "ethers"
+import { Contract } from "@ethersproject/contracts"
+import LPFarm from "../chain-info/NyanRewards.json"
+import Mock from "../chain-info/AMock.json"
+import Zero from "../chain-info/ProofOfWork.json"
+
+import brownieConfig from "../brownie-config-json.json"
+
+import helperConfig from "../helper-config.json"
+/**
+ * Expose { send, state } object to facilitate unstaking the user's tokens from the TokenFarm contract
+ */
+export const useUnstakeTokens5 = (tokenAddress: string) => {
+  const { chainId, error } = useEthers()
+
+  const networkName = chainId ? helperConfig[chainId] : "ganache"
+  const pow_token = chainId ? brownieConfig["networks"][networkName]["pow_token"] : constants.AddressZero
+  const zeroxBtcAddress  = "synethix_LP_Rewardaddress"
+  const zeroxBtcAddress2 = "0xd7D81bf3cC94439B75C06569F099dEbc33c3EC02"
+  const zeroAbi = Zero.abi
+
+  const LPFarmInterface2 = new utils.Interface(zeroAbi)
+
+  const xpw = new Contract(
+      tokenAddress, LPFarmInterface2
+  )
+
+  const [amountToStake, setAmountToStake] = useState("0")
+
+  const { send: approveErc20Send, state: approveErc20State } =
+  useContractFunction(xpw, "AOpenMint", {
+    transactionName: "Approve ERC20 transfer",
+  })
+
+  const send =  (amount: string) => {
+    setAmountToStake(amount)
+    return approveErc20Send(true, true)
+  }
+  console.log(tokenAddress)
+  const [state, setState] = useState(approveErc20State)
+
+  useEffect(() => {
+      setState(approveErc20State)
+
+  }, [approveErc20State])
+  return { send, state }
+}

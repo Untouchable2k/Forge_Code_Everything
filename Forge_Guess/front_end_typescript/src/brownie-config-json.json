@@ -1,0 +1,68 @@
+{
+    "reports": {
+        "exclude_contracts": [
+            "SafeMath",
+            "MockV3Aggregator",
+            "DappToken",
+            "MockERC20"
+        ]
+    },
+    "dependencies": [
+        "smartcontractkit/chainlink-brownie-contracts@0.2.2",
+        "OpenZeppelin/openzeppelin-contracts@4.3.2"
+    ],
+    "compiler": {
+        "solc": {
+            "remappings": [
+                "@chainlink=smartcontractkit/chainlink-brownie-contracts@0.2.2",
+                "@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.3.2"
+            ]
+        }
+    },
+    "autofetch_sources": true,
+    "dotenv": ".env",
+    "networks": {
+        "development": {
+            "verify": false
+        },
+        "mumbai": {
+            "link_token": "0x01BE23585060835E02B77ef475b0Cc51aA1ye0709",
+            "LINK": "0x326C977E6efc84E512bB9C30f76E30c160eD06FB",
+            "guess": "0xDe256EC57E864eC847c030e14c5b97AB233A521E",
+            "weth_token": "0xbF4493415fD1E79DcDa8cD0cAd7E5Ed65DCe7074",
+            "fau_token": "0xFab46E002BbF0b4509813474841E0716E6730136",
+            "TokenFarm": "0xFab46E002BbF0b4509813474841E0716E6730136",
+            "eth_usd_price_feed": "0x8A753747A1Fa494EC906cE90E9f37563A8AF630e",
+            "dai_usd_price_feed": "0x2bA49Aaa16E6afD2a993473cfB70Fa8559B523cF",
+            "verify": true
+        },
+        "polygon": {
+            "link_token": "0x01BE23585060835E02B77ef475b0Cc51aA1ye0709",
+            "LINK": "0xb0897686c545045aFc77CF20eC7A532E3120E0F1",
+            "guess": "0xbB9C55d014Ce22782374180f7525B0B05Eb152a2",
+            "weth_token": "0xF44fB43066F7ECC91058E3A614Fb8A15A2735276",
+            "fau_token": "0x578360adf0bbb2f10ec9cec7ef89ef495511ed5f",
+            "TokenFarm": "0x578360adf0bbb2f10ec9cec7ef89ef495511ed5f",
+            "eth_usd_price_feed": "0x71b821aa52a49f32eed535fca6eb5aa130085978",
+            "dai_usd_price_feed": "0x71b821aa52a49f32eed535fca6eb5aa130085978",
+            "verify": true
+        },
+        "rinkeby": {
+            "link_token": "0x01BE23585060835E02B77ef475b0Cc51aA1e0709",
+            "eth_usd_price_feed": "0x8A753747A1Fa494EC906cE90E9f37563A8AF630e",
+            "dai_usd_price_feed": "0x2bA49Aaa16E6afD2a993473cfB70Fa8559B523cF",
+            "verify": true
+        },
+        "kovan": {
+            "weth_token": "0xd0a1e359811322d97991e03f863a0c30c2cf029c",
+            "fau_token": "0xFab46E002BbF0b4509813474841E0716E6730136",
+            "eth_usd_price_feed": "0x9326BFA02ADD2366b30bacB125260Af641031331",
+            "dai_usd_price_feed": "0x777A68032a88E5A84678A77Af2CD65A7b3c0775a",
+            "verify": true
+        }
+    },
+    "wallets": {
+        "from_key": "${PRIVATE_KEY}",
+        "from_mnemonic": "${MNEMONIC}"
+    }
+}
