@@ -1,0 +1,60 @@
+h2, h5 {
+    margin-top:0;
+    margin-bottom:0;
+
+    color:black;
+}
+.buttonW {
+    width: "100%";
+    height: "310px";}
+
+    .buttonD {
+        width: "100%";
+        height: "310px";
+        color: white;
+    }
+
+    .MuiSlider-thumb.MuiSlider-thumbColorPrimary{
+        height: 0.9em;
+        width: 0.9em;
+        font-size: 1em;
+        color: #ff6a03;
+    }
+    .MuiSlider-root.MuiSlider-colorPrimary.MuiSlider-marked{
+        height: 1.3em;
+        width: 18em;
+        font-size: 1em;
+        color:hsl(295, 93%, 48%);
+
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+    .MuiInputBase-input.MuiInput-input.MuiInputBase-inputMarginDense.MuiInput-inputMarginDense{
+
+        margin-left: 10px;
+        margin-right: 5px;
+        height: 35px;
+        width: 5em;
+        font-size: 22px;
+        color: #ff6a03;
+        
+    }
+    .myHeader{
+        text-align: left;
+
+        margin-left: 25%;
+    }
+    .makeStyles-slider-23{
+        width: 100% !important;
+        max-width: 20px !important;
+      }
+
+      .Bab{
+        width: 100% !important;
+        max-width: 90% !important;
+      }
+      .MuiAlert-root{
+
+
+        width: 100% !important;
+      }
