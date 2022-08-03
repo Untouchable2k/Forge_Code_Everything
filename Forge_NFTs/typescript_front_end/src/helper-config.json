@@ -1,0 +1,8 @@
+{
+    "42": "kovan",
+    "4": "rinkeby",
+    "1": "mainnet",
+    "137": "polygon",
+    "1337": "ganache",
+    "80001": "mumbai"
+}

@@ -1,0 +1,17 @@
+h1, h2, h3, h4, h5 {
+    display: inline;
+}        /* Centered text */
+.centered {
+    display: inline;
+  position: relative;
+  top: 1em;
+  left: -25%;
+  font-size:1.8em;
+  color: rgb(0, 0, 0);
+  font-weight:bold;
+}
+
+.MuiSlider-root{
+
+  width: 100px;
+}

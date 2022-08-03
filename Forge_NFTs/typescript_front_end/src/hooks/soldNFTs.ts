@@ -1,0 +1,35 @@
+import { useContractCall, useEthers } from "@usedapp/core"
+import TokenFarm from "../chain-info/ForgeTokenNFT.json"
+import { utils, BigNumber, constants } from "ethers"
+
+import networkMapping from "../chain-info/map.json"
+import brownieConfig from "../brownie-config-json.json"
+import helperConfig from "../helper-config.json"
+
+/**
+ * Get the staking balance of a certain token by the user in our TokenFarm contract
+ * @param address - The contract address of the token
+ */
+export const SoldNFTs = (aucNum: string): boolean | undefined => {
+  const { account, chainId } = useEthers()
+  const { abi } = TokenFarm
+  const networkName = chainId ? helperConfig[chainId] : "ganache"
+  const NFTAddy = chainId ? brownieConfig["networks"][networkName]["NFT"] : constants.AddressZero
+  const NFTAddyContract = chainId ? brownieConfig["networks"][networkName]["NFTBOOK"] : constants.AddressZero
+  
+  const tokenFarmInterface = new utils.Interface(abi)
+
+  const [stakingBalance2] =
+    useContractCall({
+      abi: tokenFarmInterface,
+      address: NFTAddy,
+      method: "ownerOf",
+      args: [aucNum],
+    }) ?? []
+
+if(stakingBalance2 == NFTAddyContract){
+  return true;
+}
+
+  return false;
+}
