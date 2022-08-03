@@ -1,1 +1,0 @@
-export { TokenFarmContract } from "./TokenFarmContract"
